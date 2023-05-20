@@ -1,7 +1,7 @@
 let draft, ready;
 function preload() {
-  ready = loadImage("assets/Foto 23.jpg");
-  draft = loadImage("assets/Foto 23.jpg");
+  ready = loadImage("Foto 23.jpg");
+  draft = loadImage("Foto 23.jpg");
 }
 function setup() {
   createCanvas(500, 500);
