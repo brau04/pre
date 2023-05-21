@@ -7,7 +7,7 @@ function setup() {
   createCanvas(900, 900);
   noCursor();
   cursor(20, -10);
-  image(ready, 0, 0, width, height,0,0,ready.width,ready.height);
+  image(ready, 0, 0, width, height,0,0,ready.width,ready.height, COVER);
   image(draft, 0, 0, width, height,0,0,draft.width,draft.height, COVER);
 }
 
