@@ -4,7 +4,7 @@ function preload() {
   draft = loadImage("Foto 23.jpg");
 }
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(900, 900);
   noCursor();
   cursor(20, -10);
   image(ready, 0, 0, width, height,0,0,ready.width,ready.height);
